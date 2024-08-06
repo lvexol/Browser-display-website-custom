@@ -1,0 +1,26 @@
+body {
+    background-color: darkblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 640px;
+    height: 360px;
+    border: 1px solid black;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content {
+    text-align: center;
+    font-size: larger;
+}
+#mediaBox img.draggable {
+    position: absolute;
+    cursor: grab;
+    max-width: 100%;
+    max-height: 100%;
+}
