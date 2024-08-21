@@ -1,29 +1,3 @@
-body {
-    background-color: darkblue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.box {
-    width: 640px;
-    height: 360px;
-    border: 1px solid black;
-    margin: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    background-color: white;
-}
-.content {
-    text-align: center;
-    font-size: larger;
-}
-.draggable {
-    position: absolute;
-    cursor: grab;
-    transform-origin: top left;
-    max-width: none;
-    max-height: none;
+body{
+  display:block;
 }
